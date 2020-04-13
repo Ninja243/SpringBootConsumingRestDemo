@@ -11,10 +11,10 @@ import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
 public class ConsumingRestDemoApplication {
-	private static final Logger log = LoggerFactory.getLogger(ConsumingRestApplication.class);
+	private static final Logger log = LoggerFactory.getLogger(ConsumingRestDemoApplication.class);
 
 	public static void main(String[] args) {
-		SpringApplication.run(ConsumingRestApplication.class, args);
+		SpringApplication.run(ConsumingRestDemoApplication.class, args);
 	}
 
 	@Bean
